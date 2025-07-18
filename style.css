@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=UnifrakturCook:wght@700&display=swap');
+
+.nav-item{
+	padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+	background-color: #15447c;
+	color: white;
+	text-transform: uppercase;
+	
+
+}
+
+.nav {
+	background-color: #15447c;
+}
+
+.x-line{
+	width: 2px;
+	margin-top:5px ;
+	margin-bottom: 7px;
+	background-color: white;
+
+}
+
+.navbar-brand{
+
+	margin-left: 68px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+

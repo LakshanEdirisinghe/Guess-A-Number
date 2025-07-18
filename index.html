@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <title>Activity</title>
+
+  </head>
+  <body style="background-color: var(--bs-secondary-bg);">
+    <div
+      class="container d-flex justify-content-center min-vh-100 align-items-center">
+      <div class="card" style="width: auto;">
+        <div class="card-body">
+          <h5 class="card-title mb-3">Number Gessing Game</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Insert a Number
+            Whatever You think Between 1 to 10</h6>
+          <p class="card-text mt-3">
+            <input id="inputData" type="text" placeholder="Enter Number">
+            <input type="button" class="btn btn-success" value="Guess A Number"
+              onclick="test()">
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="colo" class="card " style="width: auto;">
+        <div class="card-body">
+          <h5 class="card-title"  id="displayText"></h5>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/myJs.js"></script>
+  </body>
+</html>
